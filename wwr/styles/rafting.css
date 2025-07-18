@@ -4,8 +4,8 @@
     --accent1-color: #FFA400;
     --accent2-color: #232528;
     --accent3-color: #eaf6ff;
-    --heading-font: "Roboto Thin 100", Roboto;
-    --body-font: "Roboto Regular 400", Roboto;
+    --heading-font: "Roboto Condensed", sans-serif;
+    --body-font: "Roboto", sans-serif;
 }
 
 * {
