@@ -57,6 +57,7 @@ aside {
     width: 20rem;
     text-align: center;
     order: 0;
+    position: relative;
 }
 
 aside img {
