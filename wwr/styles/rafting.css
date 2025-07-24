@@ -20,22 +20,68 @@ body {
 }
 
 header, main, footer {
-    width: 840px;
+    width: 1000px;
     margin: 0 auto;
 }
 
+header {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+}
+
+header img {
+    width: 250px;
+    height: auto;
+}
+
+.navigation ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    font-family: var(--heading-font);
+}
+
+.navigation li {
+    flex: 1 1 auto;
+}
+
+.navigation a {
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+}
+
+/* .navigation a:hover {
+	color: tomato;
+	font-weight: 700;
+	text-decoration: underline;
+} */
+
 h1, h2 {
     font-family: var(--heading-font);
-    color: var(--accent1-color);
+    color: var(--secondary-color);
+}
+
+h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.8;
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+h2 {
+    text-align: center;
 }
 
 nav, p, section, article {
     margin: 16px;
     padding: 8px;
-}
-
-.socialmedia a {
-    text-decoration: none;
 }
 
 .hero {
@@ -48,24 +94,14 @@ nav, p, section, article {
     height: auto;
 }
 
-h1 {
-    position: absolute;
-    top: 20px;
-    width: 100%;
-    padding: 16px;
-    text-align: center;
-    opacity: 0.7;
-    background-color: var(--primary-color);
-    color: #fff;
-}
-
 article {
     position: absolute;
-    top: 350px;
-    width: 805px;
+    top: 420px;
+    left: 35px;
+    width: 900px;
     padding: 10px;
-    opacity: 0.7;
-    background-color: var(--primary-color);
+    opacity: 0.9;
+    background-color: var(--accent1-color);
     color: #fff;
 }
 
@@ -74,6 +110,40 @@ article {
     width: 125px;
 }
 
+.history div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.history img {
+    width: 100%;
+    align-items: center;
+}
+
+.adventures div {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.adventures img {
+    max-width: 180px;
+}
+
+.adventures figcaption {
+    text-align: center;
+    font-family: var(--heading-font);
+}
+
 footer img {
     width: 50px;
+}
+
+.socialmedia {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.socialmedia a {
+    text-decoration: none;
 }
