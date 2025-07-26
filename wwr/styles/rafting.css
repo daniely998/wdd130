@@ -71,7 +71,7 @@ h1 {
     padding: 16px;
     text-align: center;
     opacity: 0.8;
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
     color: #fff;
 }
 
@@ -101,7 +101,7 @@ article {
     width: 900px;
     padding: 10px;
     opacity: 0.9;
-    background-color: var(--accent1-color);
+    background-color: var(--accent2-color);
     color: #fff;
 }
 
