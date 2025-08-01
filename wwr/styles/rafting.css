@@ -12,6 +12,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* background-color: var(--accent1-color); */
 }
 
 body {
@@ -133,6 +134,60 @@ article {
 .adventures figcaption {
     text-align: center;
     font-family: var(--heading-font);
+}
+
+.employee div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.employee img {
+    width: 250px;
+    height: 300px;
+}
+
+.employee figcaption {
+    text-align: center;
+}
+
+form {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+input, textarea {
+    padding: 0.5em;
+    font-size: 1rem;
+}
+
+.form-name, .form-email, .message {
+    display: grid;
+    gap: 5px;
+}
+
+.form-name {
+    grid-template-columns: 1fr 1fr;
+}
+
+textarea {
+    height: 100px;
+}
+
+button {
+    width: 100px;
+    margin: 1rem;
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: var(--accent1-color);
 }
 
 footer img {
