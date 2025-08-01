@@ -136,6 +136,10 @@ article {
     font-family: var(--heading-font);
 }
 
+.contact-heading h1 {
+    position: relative;
+}
+
 .employee div {
     display: flex;
     justify-content: space-evenly;
