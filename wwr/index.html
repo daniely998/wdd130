@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="White Water Rafting Website About">
+        <meta name="description" content="White Water Rafting Website Home Page">
         <meta name="author" content="Daniel Yim">
 
         <link rel="stylesheet" href="styles/rafting.css">
@@ -13,7 +13,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital@0;1&display=swap" rel="stylesheet">
         
-        <title>White Water Rafting About Us</title>
+        <title>White Water Rafting Home Page</title>
     </head>
     <body>
         <header>
@@ -27,33 +27,29 @@
                 </ul>
             </nav>
         </header>
-        <main>
-            <div class="hero">
-                <img src="images/rafting-hero-opted.webp" alt="Rafting Hero">
+        <main class="home-main">
+            <div class="home-hero">
+                <img src="images/home-hero.webp" alt="Rafting Hero">
                 <h1>WHITE WATER RAFTING</h1>
-                <article>
-                    <img src="images/happy-people.webp" alt="Happy Clients">
-                    <p>Our goal is to provide amazing and unforgetable experiences to all new and veteran rafters!</p>
-                </article>
             </div>
-            <section class="history">
-                <h2>History</h2>
-                <div>
-                    <p>Started by a group of rafting-loving people in the year of 1998, our company has since been the humble yet reliable friend for white water raftin.</p>
-                    <img src="images/rafting-history.webp" alt="Resting Boats">
-                    <p>We strive to continue bringing the best rafting experience in all coming future.</p>
+            <form>
+                <h2>Sign Up for Newsletter</h2>
+                <p>Don't miss out on the latest news and events going on in White Water Rafting!</p>
+                <div class="form-name">
+                    <label for="firstname">First Name:</label>
+                    <label for="lastname">Last Name:</label>
+                    <input type="text" id="firstname" name="firstname">
+                    <input type="text" id="lastname" name="lastname">
                 </div>
-            </section>
-            <section class="adventures">
-                <h2>Adventure Awaits You!</h2>
-                <div>
-                    <figure><img src="images/rafting-01.webp" alt="Going Down"><figcaption>Going Down</figcaption></figure>
-                    <figure><img src="images/rafting-02.webp" alt="Battling Water"><figcaption>Battling Water</figcaption></figure>
-                    <figure><img src="images/rafting-03.webp" alt="The Killer Turn"><figcaption>The Killer Turn</figcaption></figure>
-                    <figure><img src="images/rafting-04.webp" alt="The Mouth"><figcaption>The Mouth</figcaption></figure>
-                    <figure><img src="images/rafting-05.webp" alt="Before the Fall"><figcaption>Before the Fall</figcaption></figure>
+                <div class="form-email">
+                    <label for="useremail">Email:</label>
+                    <input type="text" id="useremail" name="useremail">
                 </div>
-            </section>
+                <button type="submit">Sign Up</button>
+            </form>
+            <div class="CTA">
+                <a href="trips.html">Sign Up for a Trip</a>
+            </div>
         </main>
         <footer>
             <p>&#169;2025 White Water Rafting | Daniel Yim</p>

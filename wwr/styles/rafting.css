@@ -54,12 +54,6 @@ header img {
     padding: 20px;
 }
 
-/* .navigation a:hover {
-	color: tomato;
-	font-weight: 700;
-	text-decoration: underline;
-} */
-
 h1, h2 {
     font-family: var(--heading-font);
     color: var(--secondary-color);
@@ -83,6 +77,14 @@ h2 {
 nav, p, section, article {
     margin: 16px;
     padding: 8px;
+}
+
+.home-hero {
+    position: relative;
+}
+
+.home-hero img {
+    width: 100vw;
 }
 
 .hero {
@@ -124,7 +126,6 @@ article {
 .adventures div {
     display: flex;
     justify-content: space-between;
-    
 }
 
 .adventures img {
